@@ -1,0 +1,4034 @@
+[
+  {
+    "case_id": "10-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 491566,
+      "ledger": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 546366,
+      "claim": {
+        "actual_cents": 491566,
+        "cause": null,
+        "citation_ids": [
+          "T10-0",
+          "T10-1",
+          "T10-2"
+        ],
+        "variance_cents": -54800
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "00-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 738714,
+      "ledger": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 759334,
+      "claim": {
+        "actual_cents": 738714,
+        "cause": null,
+        "citation_ids": [
+          "T00-0",
+          "T00-1",
+          "T00-2"
+        ],
+        "variance_cents": 20620
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "10-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 491566,
+      "ledger": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 546366,
+      "claim": {
+        "actual_cents": 491566,
+        "cause": null,
+        "citation_ids": [
+          "T10-0",
+          "T10-1",
+          "T10-2"
+        ],
+        "variance_cents": 54800
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "08-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 632712,
+      "ledger": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 646399,
+      "claim": {
+        "actual_cents": 632712,
+        "cause": null,
+        "citation_ids": [
+          "T08-0",
+          "T08-1",
+          "T08-2"
+        ],
+        "variance_cents": 13687
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "06-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 795585,
+      "ledger": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 857773,
+      "claim": {
+        "actual_cents": 795585,
+        "cause": null,
+        "citation_ids": [
+          "T06-0",
+          "T06-1",
+          "T06-2"
+        ],
+        "variance_cents": -62188
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "02-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 689471,
+      "ledger": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 731765,
+      "claim": {
+        "actual_cents": 689471,
+        "cause": null,
+        "citation_ids": [
+          "T02-0",
+          "T02-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": -42294
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "00-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 738714,
+      "ledger": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 759334,
+      "claim": {
+        "actual_cents": 748714,
+        "cause": null,
+        "citation_ids": [
+          "T00-0",
+          "T00-1",
+          "T00-2"
+        ],
+        "variance_cents": -10620
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "09-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 751195,
+      "ledger": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 717436,
+      "claim": {
+        "actual_cents": 751195,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T09-0",
+          "T09-1",
+          "T09-2"
+        ],
+        "variance_cents": 33759
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "04-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 834264,
+      "ledger": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 871042,
+      "claim": {
+        "actual_cents": 834264,
+        "cause": null,
+        "citation_ids": [
+          "T04-0",
+          "T04-1",
+          "T04-2"
+        ],
+        "variance_cents": -36778
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "08-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 632712,
+      "ledger": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 646399,
+      "claim": {
+        "actual_cents": 632712,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T08-0",
+          "T08-1",
+          "T08-2"
+        ],
+        "variance_cents": -13687
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "07-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 841728,
+      "ledger": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797617,
+      "claim": {
+        "actual_cents": 841728,
+        "cause": null,
+        "citation_ids": [
+          "T07-0",
+          "T07-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": 44111
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "09-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 751195,
+      "ledger": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 717436,
+      "claim": {
+        "actual_cents": 751195,
+        "cause": null,
+        "citation_ids": [
+          "T09-0",
+          "T09-1",
+          "T09-2"
+        ],
+        "variance_cents": 33759
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "09-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 751195,
+      "ledger": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 717436,
+      "claim": {
+        "actual_cents": 751195,
+        "cause": null,
+        "citation_ids": [
+          "T09-0",
+          "T09-1",
+          "T09-2"
+        ],
+        "variance_cents": 33759
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "07-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 841728,
+      "ledger": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797617,
+      "claim": {
+        "actual_cents": 841728,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T07-0",
+          "T07-1",
+          "T07-2"
+        ],
+        "variance_cents": 44111
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "04-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 834264,
+      "ledger": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 871042,
+      "claim": {
+        "actual_cents": 834264,
+        "cause": null,
+        "citation_ids": [
+          "T04-0",
+          "T04-1",
+          "T04-2"
+        ],
+        "variance_cents": -36778
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "00-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 738714,
+      "ledger": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 759334,
+      "claim": {
+        "actual_cents": 738714,
+        "cause": null,
+        "citation_ids": [
+          "T00-0",
+          "T00-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": -20620
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "01-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 680937,
+      "ledger": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 632325,
+      "claim": {
+        "actual_cents": 680937,
+        "cause": null,
+        "citation_ids": [
+          "T01-0",
+          "T01-1",
+          "T01-2"
+        ],
+        "variance_cents": -48612
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "04-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 834264,
+      "ledger": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 871042,
+      "claim": {
+        "actual_cents": 834264,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T04-0",
+          "T04-1",
+          "T04-2"
+        ],
+        "variance_cents": -36778
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "10-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 491566,
+      "ledger": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 546366,
+      "claim": {
+        "actual_cents": 501566,
+        "cause": null,
+        "citation_ids": [
+          "T10-0",
+          "T10-1",
+          "T10-2"
+        ],
+        "variance_cents": -44800
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "08-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 632712,
+      "ledger": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 646399,
+      "claim": {
+        "actual_cents": 632712,
+        "cause": null,
+        "citation_ids": [
+          "T08-0",
+          "T08-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": -13687
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "06-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 795585,
+      "ledger": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 857773,
+      "claim": {
+        "actual_cents": 795585,
+        "cause": null,
+        "citation_ids": [
+          "T06-0",
+          "T06-1",
+          "T06-2"
+        ],
+        "variance_cents": 62188
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "03-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 873422,
+      "ledger": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 810268,
+      "claim": {
+        "actual_cents": 873422,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T03-0",
+          "T03-1",
+          "T03-2"
+        ],
+        "variance_cents": 63154
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "00-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 738714,
+      "ledger": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 759334,
+      "claim": {
+        "actual_cents": 738714,
+        "cause": null,
+        "citation_ids": [
+          "T00-0",
+          "T00-1",
+          "T00-2"
+        ],
+        "variance_cents": -20620
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "02-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 689471,
+      "ledger": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 731765,
+      "claim": {
+        "actual_cents": 689471,
+        "cause": null,
+        "citation_ids": [
+          "T02-0",
+          "T02-1",
+          "T02-2"
+        ],
+        "variance_cents": 42294
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "11-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 871943,
+      "ledger": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 802607,
+      "claim": {
+        "actual_cents": 871943,
+        "cause": null,
+        "citation_ids": [
+          "T11-0",
+          "T11-1",
+          "T11-2"
+        ],
+        "variance_cents": -69336
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "01-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 680937,
+      "ledger": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 632325,
+      "claim": {
+        "actual_cents": 680937,
+        "cause": null,
+        "citation_ids": [
+          "T01-0",
+          "T01-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": 48612
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "02-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 689471,
+      "ledger": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 731765,
+      "claim": {
+        "actual_cents": 689471,
+        "cause": null,
+        "citation_ids": [
+          "T02-0",
+          "T02-1",
+          "T02-2"
+        ],
+        "variance_cents": -42294
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "08-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 632712,
+      "ledger": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 646399,
+      "claim": {
+        "actual_cents": 632712,
+        "cause": null,
+        "citation_ids": [
+          "T08-0",
+          "T08-1",
+          "T08-2"
+        ],
+        "variance_cents": -13687
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "07-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 841728,
+      "ledger": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797617,
+      "claim": {
+        "actual_cents": 851728,
+        "cause": null,
+        "citation_ids": [
+          "T07-0",
+          "T07-1",
+          "T07-2"
+        ],
+        "variance_cents": 54111
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "03-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 873422,
+      "ledger": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 810268,
+      "claim": {
+        "actual_cents": 883422,
+        "cause": null,
+        "citation_ids": [
+          "T03-0",
+          "T03-1",
+          "T03-2"
+        ],
+        "variance_cents": 73154
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "09-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 751195,
+      "ledger": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 717436,
+      "claim": {
+        "actual_cents": 751195,
+        "cause": null,
+        "citation_ids": [
+          "T09-0",
+          "T09-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": 33759
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "05-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 838240,
+      "ledger": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797253,
+      "claim": {
+        "actual_cents": 838240,
+        "cause": null,
+        "citation_ids": [
+          "T05-0",
+          "T05-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": 40987
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "03-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 873422,
+      "ledger": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 810268,
+      "claim": {
+        "actual_cents": 873422,
+        "cause": null,
+        "citation_ids": [
+          "T03-0",
+          "T03-1",
+          "T03-2"
+        ],
+        "variance_cents": 63154
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "02-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 689471,
+      "ledger": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 731765,
+      "claim": {
+        "actual_cents": 699471,
+        "cause": null,
+        "citation_ids": [
+          "T02-0",
+          "T02-1",
+          "T02-2"
+        ],
+        "variance_cents": -32294
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "01-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 680937,
+      "ledger": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 632325,
+      "claim": {
+        "actual_cents": 680937,
+        "cause": null,
+        "citation_ids": [
+          "T01-0",
+          "T01-1",
+          "T01-2"
+        ],
+        "variance_cents": 48612
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "05-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 838240,
+      "ledger": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797253,
+      "claim": {
+        "actual_cents": 838240,
+        "cause": null,
+        "citation_ids": [
+          "T05-0",
+          "T05-1",
+          "T05-2"
+        ],
+        "variance_cents": -40987
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "06-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 795585,
+      "ledger": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 857773,
+      "claim": {
+        "actual_cents": 795585,
+        "cause": null,
+        "citation_ids": [
+          "T06-0",
+          "T06-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": -62188
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "03-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 873422,
+      "ledger": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 810268,
+      "claim": {
+        "actual_cents": 873422,
+        "cause": null,
+        "citation_ids": [
+          "T03-0",
+          "T03-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": 63154
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "11-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 871943,
+      "ledger": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 802607,
+      "claim": {
+        "actual_cents": 871943,
+        "cause": null,
+        "citation_ids": [
+          "T11-0",
+          "T11-1",
+          "T11-2"
+        ],
+        "variance_cents": 69336
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "02-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 689471,
+      "ledger": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 731765,
+      "claim": {
+        "actual_cents": 689471,
+        "cause": null,
+        "citation_ids": [
+          "T02-0",
+          "T02-1",
+          "T02-2"
+        ],
+        "variance_cents": -42294
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "03-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 873422,
+      "ledger": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 810268,
+      "claim": {
+        "actual_cents": 873422,
+        "cause": null,
+        "citation_ids": [
+          "T03-0",
+          "T03-1",
+          "T03-2"
+        ],
+        "variance_cents": 63154
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "11-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 871943,
+      "ledger": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 802607,
+      "claim": {
+        "actual_cents": 871943,
+        "cause": null,
+        "citation_ids": [
+          "T11-0",
+          "T11-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": 69336
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "01-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 680937,
+      "ledger": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 632325,
+      "claim": {
+        "actual_cents": 680937,
+        "cause": null,
+        "citation_ids": [
+          "T01-0",
+          "T01-1",
+          "T01-2"
+        ],
+        "variance_cents": 48612
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "08-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 632712,
+      "ledger": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 646399,
+      "claim": {
+        "actual_cents": 632712,
+        "cause": null,
+        "citation_ids": [
+          "T08-0",
+          "T08-1",
+          "T08-2"
+        ],
+        "variance_cents": -13687
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "11-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 871943,
+      "ledger": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 802607,
+      "claim": {
+        "actual_cents": 871943,
+        "cause": null,
+        "citation_ids": [
+          "T11-0",
+          "T11-1",
+          "T11-2"
+        ],
+        "variance_cents": 69336
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "03-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 873422,
+      "ledger": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 810268,
+      "claim": {
+        "actual_cents": 873422,
+        "cause": null,
+        "citation_ids": [
+          "T03-0",
+          "T03-1",
+          "T03-2"
+        ],
+        "variance_cents": -63154
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 365136,
+          "id": "T03-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 147306,
+          "id": "T03-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 360980,
+          "id": "T03-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "06-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 795585,
+      "ledger": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 857773,
+      "claim": {
+        "actual_cents": 795585,
+        "cause": null,
+        "citation_ids": [
+          "T06-0",
+          "T06-1",
+          "T06-2"
+        ],
+        "variance_cents": -62188
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "04-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 834264,
+      "ledger": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 871042,
+      "claim": {
+        "actual_cents": 834264,
+        "cause": null,
+        "citation_ids": [
+          "T04-0",
+          "T04-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": -36778
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "07-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 841728,
+      "ledger": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797617,
+      "claim": {
+        "actual_cents": 841728,
+        "cause": null,
+        "citation_ids": [
+          "T07-0",
+          "T07-1",
+          "T07-2"
+        ],
+        "variance_cents": 44111
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "05-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 838240,
+      "ledger": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797253,
+      "claim": {
+        "actual_cents": 838240,
+        "cause": null,
+        "citation_ids": [
+          "T05-0",
+          "T05-1",
+          "T05-2"
+        ],
+        "variance_cents": 40987
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "01-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 680937,
+      "ledger": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 632325,
+      "claim": {
+        "actual_cents": 690937,
+        "cause": null,
+        "citation_ids": [
+          "T01-0",
+          "T01-1",
+          "T01-2"
+        ],
+        "variance_cents": 58612
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "05-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 838240,
+      "ledger": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797253,
+      "claim": {
+        "actual_cents": 848240,
+        "cause": null,
+        "citation_ids": [
+          "T05-0",
+          "T05-1",
+          "T05-2"
+        ],
+        "variance_cents": 50987
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "07-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 841728,
+      "ledger": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797617,
+      "claim": {
+        "actual_cents": 841728,
+        "cause": null,
+        "citation_ids": [
+          "T07-0",
+          "T07-1",
+          "T07-2"
+        ],
+        "variance_cents": 44111
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "06-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 795585,
+      "ledger": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 857773,
+      "claim": {
+        "actual_cents": 805585,
+        "cause": null,
+        "citation_ids": [
+          "T06-0",
+          "T06-1",
+          "T06-2"
+        ],
+        "variance_cents": -52188
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "07-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 841728,
+      "ledger": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797617,
+      "claim": {
+        "actual_cents": 841728,
+        "cause": null,
+        "citation_ids": [
+          "T07-0",
+          "T07-1",
+          "T07-2"
+        ],
+        "variance_cents": -44111
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 214291,
+          "id": "T07-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 355675,
+          "id": "T07-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 271762,
+          "id": "T07-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "10-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 491566,
+      "ledger": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 546366,
+      "claim": {
+        "actual_cents": 491566,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T10-0",
+          "T10-1",
+          "T10-2"
+        ],
+        "variance_cents": -54800
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "08-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 632712,
+      "ledger": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 646399,
+      "claim": {
+        "actual_cents": 642712,
+        "cause": null,
+        "citation_ids": [
+          "T08-0",
+          "T08-1",
+          "T08-2"
+        ],
+        "variance_cents": -3687
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 99106,
+          "id": "T08-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 298351,
+          "id": "T08-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 235255,
+          "id": "T08-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "06-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 795585,
+      "ledger": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 857773,
+      "claim": {
+        "actual_cents": 795585,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T06-0",
+          "T06-1",
+          "T06-2"
+        ],
+        "variance_cents": -62188
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 135386,
+          "id": "T06-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 264406,
+          "id": "T06-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 395793,
+          "id": "T06-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "04-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 834264,
+      "ledger": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 871042,
+      "claim": {
+        "actual_cents": 834264,
+        "cause": null,
+        "citation_ids": [
+          "T04-0",
+          "T04-1",
+          "T04-2"
+        ],
+        "variance_cents": 36778
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "10-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 491566,
+      "ledger": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 546366,
+      "claim": {
+        "actual_cents": 491566,
+        "cause": null,
+        "citation_ids": [
+          "T10-0",
+          "T10-1",
+          "T10-2"
+        ],
+        "variance_cents": -54800
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "05-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 838240,
+      "ledger": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797253,
+      "claim": {
+        "actual_cents": 838240,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T05-0",
+          "T05-1",
+          "T05-2"
+        ],
+        "variance_cents": 40987
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "09-wrong_sign",
+    "expected_action": "reject",
+    "fault_type": "wrong_sign",
+    "truth": {
+      "actual_cents": 751195,
+      "ledger": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 717436,
+      "claim": {
+        "actual_cents": 751195,
+        "cause": null,
+        "citation_ids": [
+          "T09-0",
+          "T09-1",
+          "T09-2"
+        ],
+        "variance_cents": -33759
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "05-wrong_period",
+    "expected_action": "defer",
+    "fault_type": "wrong_period",
+    "truth": {
+      "actual_cents": 838240,
+      "ledger": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 797253,
+      "claim": {
+        "actual_cents": 838240,
+        "cause": null,
+        "citation_ids": [
+          "T05-0",
+          "T05-1",
+          "T05-2"
+        ],
+        "variance_cents": 40987
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 338664,
+          "id": "T05-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 119304,
+          "id": "T05-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 380272,
+          "id": "T05-2",
+          "period": "2026-08"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "04-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 834264,
+      "ledger": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 871042,
+      "claim": {
+        "actual_cents": 844264,
+        "cause": null,
+        "citation_ids": [
+          "T04-0",
+          "T04-1",
+          "T04-2"
+        ],
+        "variance_cents": -26778
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 286440,
+          "id": "T04-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 273143,
+          "id": "T04-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 274681,
+          "id": "T04-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "00-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 738714,
+      "ledger": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 759334,
+      "claim": {
+        "actual_cents": 738714,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T00-0",
+          "T00-1",
+          "T00-2"
+        ],
+        "variance_cents": -20620
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "02-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 689471,
+      "ledger": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 731765,
+      "claim": {
+        "actual_cents": 689471,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T02-0",
+          "T02-1",
+          "T02-2"
+        ],
+        "variance_cents": -42294
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 134576,
+          "id": "T02-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 293977,
+          "id": "T02-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 260918,
+          "id": "T02-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "10-missing_citation",
+    "expected_action": "defer",
+    "fault_type": "missing_citation",
+    "truth": {
+      "actual_cents": 491566,
+      "ledger": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 546366,
+      "claim": {
+        "actual_cents": 491566,
+        "cause": null,
+        "citation_ids": [
+          "T10-0",
+          "T10-1",
+          "UNAVAILABLE"
+        ],
+        "variance_cents": -54800
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 149665,
+          "id": "T10-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 151024,
+          "id": "T10-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 190877,
+          "id": "T10-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "00-supported",
+    "expected_action": "accept",
+    "fault_type": "supported",
+    "truth": {
+      "actual_cents": 738714,
+      "ledger": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 759334,
+      "claim": {
+        "actual_cents": 738714,
+        "cause": null,
+        "citation_ids": [
+          "T00-0",
+          "T00-1",
+          "T00-2"
+        ],
+        "variance_cents": -20620
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 328869,
+          "id": "T00-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 313235,
+          "id": "T00-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 96610,
+          "id": "T00-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "11-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 871943,
+      "ledger": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 802607,
+      "claim": {
+        "actual_cents": 881943,
+        "cause": null,
+        "citation_ids": [
+          "T11-0",
+          "T11-1",
+          "T11-2"
+        ],
+        "variance_cents": 79336
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "11-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 871943,
+      "ledger": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 802607,
+      "claim": {
+        "actual_cents": 871943,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T11-0",
+          "T11-1",
+          "T11-2"
+        ],
+        "variance_cents": 69336
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 323474,
+          "id": "T11-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257307,
+          "id": "T11-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 291162,
+          "id": "T11-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "01-unsupported_cause",
+    "expected_action": "defer",
+    "fault_type": "unsupported_cause",
+    "truth": {
+      "actual_cents": 680937,
+      "ledger": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 632325,
+      "claim": {
+        "actual_cents": 680937,
+        "cause": "Supplier price changes caused the variance.",
+        "citation_ids": [
+          "T01-0",
+          "T01-1",
+          "T01-2"
+        ],
+        "variance_cents": 48612
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 232748,
+          "id": "T01-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 250266,
+          "id": "T01-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 197923,
+          "id": "T01-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "09-wrong_total",
+    "expected_action": "reject",
+    "fault_type": "wrong_total",
+    "truth": {
+      "actual_cents": 751195,
+      "ledger": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    },
+    "visible": {
+      "budget_cents": 717436,
+      "claim": {
+        "actual_cents": 761195,
+        "cause": null,
+        "citation_ids": [
+          "T09-0",
+          "T09-1",
+          "T09-2"
+        ],
+        "variance_cents": 43759
+      },
+      "period": "2026-09",
+      "records": [
+        {
+          "amount_cents": 172829,
+          "id": "T09-0",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 320633,
+          "id": "T09-1",
+          "period": "2026-09"
+        },
+        {
+          "amount_cents": 257733,
+          "id": "T09-2",
+          "period": "2026-09"
+        }
+      ]
+    }
+  }
+]

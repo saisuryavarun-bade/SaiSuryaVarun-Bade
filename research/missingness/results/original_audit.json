@@ -1,0 +1,8 @@
+{
+  "status": "passed allocation/scaling/tuning/score audit",
+  "checked_records": 228,
+  "checked_choices": 72,
+  "checked_tuning_losses": 288,
+  "auditor_sha256": "a36e4acc2cbc4e5cc58eda05a98c772a453fdd83ff1f5f9e759df238f45d69c8",
+  "completed_utc": "2026-10-28T06:06:07.682657+00:00"
+}

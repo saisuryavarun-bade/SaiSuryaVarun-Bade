@@ -1,0 +1,35 @@
+{
+  "status": "Synthetic fixture diagnostic; no LLM or participants",
+  "seed": 20261126,
+  "base_scenarios": 12,
+  "related_variants_per_scenario": 6,
+  "independent_samples": false,
+  "results": {
+    "accept_all": {
+      "cases": 72,
+      "rubric_matches": 12,
+      "unsupported_accepts": 60,
+      "deferrals": 0
+    },
+    "citation_presence": {
+      "cases": 72,
+      "rubric_matches": 12,
+      "unsupported_accepts": 60,
+      "deferrals": 0
+    },
+    "linked_arithmetic": {
+      "cases": 72,
+      "rubric_matches": 60,
+      "unsupported_accepts": 12,
+      "deferrals": 24
+    },
+    "conservative_review": {
+      "cases": 72,
+      "rubric_matches": 72,
+      "unsupported_accepts": 0,
+      "deferrals": 36
+    }
+  },
+  "cases_sha256": "d52e028a9855ab6751fb91ed6d471a51dd9b9a511fc6f43c2ea9fbe67281b022",
+  "code_sha256": "43002f3d13ccac745ee1d72e1df7f4917f60a349961f17e80d8e9fe848b1f198"
+}

@@ -1,0 +1,161 @@
+{
+  "release_date": "2026-11-26",
+  "scope": "Source inspection and aggregate audit; excludes raw data and large prediction caches",
+  "files": [
+    {
+      "file": "results/selected_metrics.csv",
+      "sha256": "7dcf5457dbf74b1acede7bd415ccd8b9a4da6d33f18181b01b285e8388401013",
+      "source_stage": "total_label_budget_v11"
+    },
+    {
+      "file": "results/label_accounting.csv",
+      "sha256": "c344165d104c0593944c499939c981e2607c58ecf6467c0a93bda377de044d4a",
+      "source_stage": "total_label_budget_v11"
+    },
+    {
+      "file": "source/src/analyze_corrected_baseline.py",
+      "sha256": "2350c69e76f72bc2c61bc6f4c200df5ec3b42c15aca6b93ea746dacfad949940",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_decision_aligned_smoke.py",
+      "sha256": "ce6bda2f8b32388fdaebba8ead3918d84e6b58d6bfba640140760247ee52e316",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_external.py",
+      "sha256": "8e28ce155c9d9b270ba8ac8e12b4d500e5cd1e5ffa864022edf021464953131b",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_replication.py",
+      "sha256": "740266a51d0771a52797124e415fbb9a77dfc2644d3d4adee9527081b7f3dcbf",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_risk_advisor.py",
+      "sha256": "89f6b3f0a835b4659070251b33e84737c68b289489aa594d5b8d9ce92b1db2e9",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_robustness.py",
+      "sha256": "2b94a8160081cdc6dcc9d6722296ee4e5495dc3b746072b60ba81952cafee2d4",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_sample_size.py",
+      "sha256": "5b4cb47f84c5291b5de5ee3fea9f89e243606ceac47b1c9676ebbd2f70650643",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_threshold_sensitivity.py",
+      "sha256": "424514dca840c0a96a25442de823fc8007231c154f944e6b608546964dccb1cb",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/analyze_total_label_budget.py",
+      "sha256": "a36e4acc2cbc4e5cc58eda05a98c772a453fdd83ff1f5f9e759df238f45d69c8",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/corrected_baseline.py",
+      "sha256": "78ca52efaa114fd1db6726f118fc422e516bdffacb790f88b10bc510c3dbbaa8",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/decision_aligned_smoke.py",
+      "sha256": "334743462df1f03b4054c615a2808911b07780b16bbbe69057a915f1fab772a8",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/decision_aware_audit.py",
+      "sha256": "4134244bcb8e0476059b19bed62652072f797da8b959eddaad162fd1bf7eb517",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/external_validation.py",
+      "sha256": "280e678225b899d57b473e18d73f66bb24a50b40384c6317fcc49f472c41d349",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/pilot.py",
+      "sha256": "8086771e67a13944c6b4fb4075c937e7bffa72bfdebaa3ca9159ac115cff9f00",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/replication.py",
+      "sha256": "d4eddd91c23943522f0f1c172d4c6d299ab4a85fbf112452605d33a86ad2f824",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/retention_diagnostic.py",
+      "sha256": "d30e380dbf91e1aefa87a39a7ec91b19621a0caa820ee40028ac58ea323159fd",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/risk_advisor_baseline.py",
+      "sha256": "1e142caf37e91b013c1cddc72a09cadfd522c0c6f457c15f125c5ee12f94cbde",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/robustness.py",
+      "sha256": "89d89c9bd0f00569177ba0c32889e746b9298e1d4c33e0d4d5bb4b85ca737971",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/sample_size.py",
+      "sha256": "f3ea084e0ca08d565926e586d03495fb0d941123aa69bfb679fee2cca4664cb7",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/threshold_sensitivity.py",
+      "sha256": "7003e9f97509f91ed03fbc103fae35e1ade1a3e94fadfd1c33bb2f0071edf1ad",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/src/total_label_budget.py",
+      "sha256": "031976299e979d8438f79733f9a064f10e9f038a2e79282d9daed52d4b466f34",
+      "copy": "unmodified"
+    },
+    {
+      "file": "source/requirements.txt",
+      "sha256": "fee8f12952c8648b08b17e412153c46cb6a86777db7ca164ddd09312471a8f0a",
+      "copy": "documentation; local path prefixes removed if present"
+    },
+    {
+      "file": "source/requirements-lock.txt",
+      "sha256": "8ed310008bf7a549dc0d5313eba8ddf027f0eacecec435aadc39aef3f9c1fec1",
+      "copy": "documentation; local path prefixes removed if present"
+    },
+    {
+      "file": "source/corrections_log.md",
+      "sha256": "3f71bf69845cb16d98b82d290596a1ab51c81ce7c92146b679982ce1039c74d6",
+      "copy": "documentation; local path prefixes removed if present"
+    },
+    {
+      "file": "source/literature_gap_assessment.md",
+      "sha256": "c14c12e09e9ebd97025c73782c475e3724c92aea17709ec9de7402bb448b1d0d",
+      "copy": "documentation; local path prefixes removed if present"
+    },
+    {
+      "file": "source/closest_work_audit.md",
+      "sha256": "a39154d8f3c5bd50466ae6ef395077d392031bb7da3ae97ca750887ea599aa10",
+      "copy": "documentation; local path prefixes removed if present"
+    },
+    {
+      "file": "source/robustness_plan.md",
+      "sha256": "558ce2f393a7c2817a4b583992c2e3371f0cedf6ab6cd359b9fb2ba33059dcea",
+      "copy": "documentation; local path prefixes removed if present"
+    },
+    {
+      "file": "source/total_label_budget_design.md",
+      "sha256": "dab767e37566a7477f06d09d3a6e2f884606ffe857cebdca71d08c93611ca87c",
+      "copy": "documentation; local path prefixes removed if present"
+    },
+    {
+      "file": "source/label_budget_extension_protocol.md",
+      "sha256": "699694133602fe331f501c864860d5aba0e9ae4c79f11022bb9e9f7c229aba6e",
+      "copy": "documentation; local path prefixes removed if present"
+    }
+  ]
+}
